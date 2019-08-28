@@ -7,14 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("neighbor")
 public class NeighborController {
 
-    @RequestMapping("/hi")
+    @RequestMapping("/hi2")
     public String index() {
-        return "Greetings!";
+        return "Greetings my friend!";
     }
 
-
-
-
-
-    
 }
