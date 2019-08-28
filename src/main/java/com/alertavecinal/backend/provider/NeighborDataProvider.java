@@ -8,4 +8,6 @@ public class NeighborDataProvider implements NeighborProvider {
     @Autowired
     private NeighborRepository neighborRepository;
 
+
+
 }
